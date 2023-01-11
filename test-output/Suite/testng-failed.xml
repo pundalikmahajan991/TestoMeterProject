@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.TestoMeter.TestPages.ViewEmployListTestPage">
+        <methods>
+          <include name="browserTearDown"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="veryfiRecodesGetFound"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestoMeter.TestPages.ViewEmployListTestPage -->
+      <class name="com.TestoMeter.TestPages.LoginTestPage">
+        <methods>
+          <include name="getLoginSucessfull"/>
+          <include name="veryfyUrl"/>
+          <include name="openBrowser"/>
+          <include name="browserTearDown"/>
+          <include name="browserClose"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestoMeter.TestPages.LoginTestPage -->
+      <class name="com.TestoMeter.TestPages.HomeTestPage">
+        <methods>
+          <include name="veryfiAddEmplyTextIsDisplay"/>
+          <include name="browserClose"/>
+          <include name="verfyempolyInformationIsDisplay"/>
+          <include name="browserTearDown"/>
+          <include name="openBrowser"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestoMeter.TestPages.HomeTestPage -->
+      <class name="com.TestoMeter.TestPages.EmployListTestPage">
+        <methods>
+          <include name="VeryRecordsUpDated"/>
+          <include name="browserTearDown"/>
+          <include name="browserClose"/>
+          <include name="verifySaveFirstName"/>
+          <include name="browserSetup"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- com.TestoMeter.TestPages.EmployListTestPage -->
+      <class name="com.TestoMeter.TestPages.AddEmployTestPage">
+        <methods>
+          <include name="veryfiRecodsGetSaved"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+          <include name="browserTearDown"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.TestoMeter.TestPages.AddEmployTestPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
